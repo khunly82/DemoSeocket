@@ -11,6 +11,8 @@ builder.Services.AddCors(b => b.AddDefaultPolicy(o =>
 
 var app = builder.Build();
 
+app.UseCors();
+
 app.MapHub<MessageHub>("/ws");
 
 // Configure the HTTP request pipeline.
