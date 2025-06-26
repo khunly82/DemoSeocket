@@ -1,0 +1,6 @@
+@DemoSeocket_HostAddress = http://localhost:5089
+
+GET {{DemoSeocket_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
